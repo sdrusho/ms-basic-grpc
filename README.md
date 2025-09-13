@@ -12,7 +12,7 @@ Client running on port: 8080
 grpc server running on port: 9090
 
 Api for client request
-http://localhost:8080/basic/user?name=rusho
+[GET] http://localhost:8080/basic/user?name=rusho
 
 
 Response:
