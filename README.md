@@ -2,8 +2,9 @@
 
 Added spring boot micro service for grpc request server and client
 
-Run:
-mvn clean install
+Build: mvn clean install
+Run:mvn spring-boot:run 
+
 
 Clinet running on port: 8080
 grpc server running on port: 9090
