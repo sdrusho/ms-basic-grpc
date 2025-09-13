@@ -7,7 +7,7 @@ Build: mvn clean install
 Run: mvn spring-boot:run 
 
 
-Clinet running on port: 8080
+Client running on port: 8080
 
 grpc server running on port: 9090
 
