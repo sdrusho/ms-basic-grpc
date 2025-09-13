@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+
+package org.basic.grpc;
+
+option java_multiple_files = true;
+option java_outer_classname = "UserProto";
+service User {
+  rpc ValidateUser (UserRequest) returns (UserResponse);
+}
+message UserRequest {
+  string name = 1;
+}
+message UserResponse {
+  string message = 1;
+}
